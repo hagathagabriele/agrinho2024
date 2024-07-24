@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>Em busca da cidade perdida</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+        <button class="comeca" data-proximo="1">Iniciar</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <img src="img 3/imagem1.jpeg">
+            <h1 class="capitulo">A Decisão</h1>
+            <p class="escrita">Você é um(a) jovem morador(ra) de uma cidade que está se desgradando pela grande quantidade de poluição e descobriu um antigo labirinto na floresta. Este labirinto guarda segredos e técnicas sustentáveis que podem salvar sua cidade de uma crise ambiental. Para obter essas valiosas informações, você deve navegar pelo labirinto, enfrentar desafios e resolver enigmas. Sua missão é aprender essas técnicas e aplicá-las para melhorar a vida na cidade.</p>
+            <button class="btn-proximo" data-proximo="3">embarque nessa missão</button>
+            <button class="btn-proximo" data-proximo="2">Não embarcar nessa missão e voltar para casa</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <img src="img 3/imagem2.jpeg">
+            <p class="escrita"> Bom, nem todos nós podemos ou gostamos de ajudar, porém caso queira retornar, o labirinto sempre estará a sua espera para ajudá-lo(a) a viver em lugar melhor.</p>
+            <button class="btn-proximo" data-proximo="1">Tentar novamente</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <img src="img 3/imagem3.jpeg">
+            <p class="escrita">Você tomou uma grande decisão e embarcou nesta missão e agora está diante da entrada do labirinto. A vegetação é densa, mas há dois caminhos que se ramificam logo à frente.</p>
+            <button class="btn-proximo" data-proximo="4">Seguir pelo caminho iluminado pelo sol</button>
+            <button class="btn-proximo" data-proximo="15">Entrar pelo caminho sombreado</button>
+        </div>
+        <div class="passo" id="passo-4">
+            <img src="img 3/imagem4.jpeg">
+            <h2 class="capitulo">O Caminho Escolhido</h2>
+            <p class="escrita">Você escolheu o caminho iluminado. O sol brilha intensamente e você sente uma leve brisa. Logo à frente, você encontra um poço seco com uma escrita antiga.</p>
+            <p class="Enigma">Enigma:“Para a vida florescer, a água deve correr. Qual técnica devo usar para a água conservar?”</p>
+            <button class="btn-proximo" data-proximo="5">Irrigação por gotejamento</button>
+            <button class="btn-proximo" data-proximo="6">Aspersão tradicional</button>
+        </div>
+        <div class="passo" id="passo-5">
+            <img src="img 3/avançar.jpeg">
+            <p class="escrita">Você acertou! A técnica de irrigação por gotejamento economiza água e é altamente eficiente. Você avança para a próxima seção do labirinto.</p>            
+            <button class="btn-proximo" data-proximo="7">Avançar</button>
+            <button class="btn-proximo" data-proximo="27">Saiba Mais</button>
+        </div>
+        <div class="passo" id="passo-6">
+            <img src="img 3/voltar.jpeg">
+            <p class="escrita">Infelizmente, essa técnica não é a mais eficiente para conservar água. Você precisa voltar e escolher novamente.</p>
+            <button class="btn-proximo" data-proximo="4">Tentar novamente</button>
+        </div>
+        <div class="passo" id="passo-7">
+            <img src="img 3/imagem7.jpeg">
+            <p class="escrita">Avançando pelo labirinto, você encontra um campo experimental com duas técnicas de plantio.</p>
+            <p class="Enigma">Enigma:“Para o solo preservar e os nutrientes guardar, que método deve-se adotar?”</p>
+            <button class="btn-proximo" data-proximo="9">Rotação de culturas</button>
+            <button class="btn-proximo" data-proximo="10">Monocultura</button>
+        </div>
+        <div class="passo" id="passo-9">
+            <img src="img 3/avançar.jpeg">
+            <p class="escrita">Excelente escolha! A rotação de culturas mantém o solo fértil e produtivo. Você aprende mais sobre esta técnica e prossegue.</p>
+            <button class="btn-proximo" data-proximo="11">Avançar</button>
+            <button class="btn-proximo" data-proximo="28">Saiba Mais</button>
+        </div>
+        <div class="passo" id="passo-10">
+            <img src="img 3/voltar.jpeg">
+            <p class="escrita">Essa técnica esgota os nutrientes do solo rapidamente. Volte e escolha novamente.</p>
+            <button class="btn-proximo" data-proximo="7">Tentar novamente</button>
+        </div>
+        <div class="passo" id="passo-11">
+            <img src="img 3/imagem8.jpeg">
+            <h3 class="capitulo">A Grande Decisão</h3>
+            <p class="escrita">No centro do labirinto, você encontra uma máquina antiga com uma mensagem: “Para a energia renovar e o planeta poupar, qual fonte devemos adotar?”</p class="escritaa">
+            <p class="escrita" class="Desafio">Enigma Final:“Qual fonte de energia é sustentável e renovável?”</p>
+            <button class="btn-proximo" data-proximo="12">Escolher energia solar</button>
+            <button class="btn-proximo" data-proximo="13">Escolher energia de combustíveis fósseis</button>
+        </div>
+        <div class="passo" id="passo-12">
+            <img src="img 3/avançar.jpeg">
+            <p class="escrita">Parabéns! Energia solar é uma fonte limpa e sustentável. Você desbloqueou o segredo final do labirinto.</p>
+            <button class="btn-proximo" data-proximo="14">Avançar</button>
+            <button class="btn-proximo" data-proximo="29">Saiba Mais</button>
+        </div>
+        <div class="passo" id="passo-13">
+        <img src="img 3/voltar.jpeg">
+        <p class="escria">Essa fonte não é sustentável. Volte e tente novamente</p>
+        <button class="btn-proximo" data-proximo="11">Tentar novamente</button>
+        </div>
+        <div class="passo" id="passo-14">
+        <img src="img 3/imagem11.jpeg">
+        <h6 class="capitulo">A Saída do Labirinto</h6>
+        <p class="escria">Você saiu do labirinto com conhecimentos valiosos. Com as técnicas aprendidas - irrigação por gotejamento, compostagem, rotação de culturas e energia solar.</p>
+        <button class="btn-proximo" data-proximo="25">voltar para a cidade.</button>
+        </div>
+        <div class="passo" id="passo-15">
+            <img src="img 3/imagem6.jpeg" alt="imagem voltando para casa e desitindo da aventura">
+            <h2 class="capitulo">O Caminho Escolhido</h2>
+            <p class="escrita">O caminho sombreado é fresco e você sente o ar úmido. Você avança até encontrar uma clareira com uma pilha de compostos naturais.</p>
+            <p class="escrita" class="Enigma">Enigma: “Transformar o lixo em riqueza, de que forma se faz com destreza?”</p>
+            <button class="btn-proximo" data-proximo="16">Compostagem</button>
+            <button class="btn-proximo" data-proximo="17">Incineração</button>
+        </div>
+        <div class="passo" id="passo-16">
+            <img src="img 3/avançar.jpeg">
+        <p class="escria">Correto! Compostagem transforma resíduos orgânicos em fertilizante natural. Você avança para a próxima parte do labirinto.</p>
+        <button class="btn-proximo" data-proximo="18">Avançar</button>
+        <button class="btn-proximo" data-proximo="30">Saiba Mais</button>
+        </div>
+        <div class="passo" id="passo-17">
+            <img src="img 3/voltar.jpeg">
+            <p class="escrita">Essa técnica não é sustentável. Volte e escolha novamente.</p>
+            <button class="btn-proximo" data-proximo="15">Tentar novamente</button>
+        </div>
+        <div class="passo" id="passo-18">
+            <img src="img 3/imagem12.jpg">
+            <h3 class="capitulo">O Grande Desafio</h3>
+            <p class="escrita">Você chega ao centro do labirinto e encontra um dispositivo antigo com uma mensagem</p>
+            <p class="Enigma">Enigma:"Para proteger e preservar, devemos agir com sabedoria. Qual destas práticas sustentáveis adotariamos para uma cidade verde?</p>
+            <button class="btn-proximo" data-proximo="19">Reciclagem e Reutilização</button>
+            <button class="btn-proximo" data-proximo="20">Descarte e Compra de novos materiais</button>
+        </div>
+        <div class="passo" id="passo-19">
+            <img src="img 3/avançar.jpeg">
+            <p class="escrita">Parabéns! Reciclagem e reutilização são essenciais para uma cidade sustentável. Você desbloqueou o segredo final do labirinto</p>
+            <button class="btn-proximo" data-proximo="21">Avançar</button>
+            <button class="btn-proximo" data-proximo="31">Saiba Mais</button>
+        </div>
+        <div class="passo" id="passo-20">
+            <img src="img 3/voltar.jpeg">
+            <p class="escrita">Incorreto. Essa prática não é sustentável. Volte e escolha novamente.</p>
+            <button class="btn-proximo" data-proximo="18">Tentar novamente</button>
+        </div>
+        <div class="passo" id="passo-21">
+            <img src="img 3/imagem10.png">
+            <h4 class="capitulo">Desafio da Água</h4>
+            <p class="escrita">No centro do labirinto, você chega a um pátio com uma fonte seca e uma mensagem enigmática</p>
+            <p class="Enigma">Enigma Final:"Para avançar, mostre como a água da chuva pode ser aproveitada.</p>
+            <button class="btn-proximo" data-proximo="22">Desenhar um sistema de captação de água da chuva</button>
+            <button class="btn-proximo" data-proximo="23">Deixa a fonte como está</button>
+        </div>
+        <div class="passo" id="passo-22">
+            <img src="img 3/avançar.jpeg">
+            <p class="escrita">Excelente! A fonte começa a funcionar, e você recebe um pergaminho explicando como implementar sistemas de captação de água da chuva na cidade.</p>
+            <button class="btn-proximo" data-proximo="24">Avançar</button>
+            <button class="btn-proximo" data-proximo="32">Saiba Mais</button>
+        </div>
+        <div class="passo" id="passo-23">
+            <img src="img 3/voltar.jpeg">
+            <p class="escrita">Incorreto!A fonte continua seca e você não pode avançar. Volte e tente novamente.</p>
+            <button class="btn-proximo" data-proximo="21">Tentar novamente</button>
+        </div>
+        <div class="passo" id="passo-24">
+            <img src="img 3/imagem11.jpeg">
+            <h5 class="capitulo">A Saída do Labirinto</h5>
+            <p class="escrita">Com as técnicas sustentáveis aprendidas no labirinto, você retorna à cidade e implementa as mudanças necessárias para salvá-la da poluição e do desperdício.</p>
+            <button class="btn-proximo" data-proximo="26">Voltar para a Cidade.</button>
+        </div>
+        <div class="passo" id="passo-25">
+            <h7 class="fim">BOM TRABALHO!</h7>
+            <p class="escrita">Com essas práticas sustentáveis, você transforma a cidade em um lugar mais verde, saudável e resiliente. Sua jornada do campo à cidade trouxe oportunidades que farão a diferença para todos os cidadãos.</p">
+        </div> 
+        <div class="passo" id="passo-26">
+            <h7 class="fim">BOM TRABALHO!</h7>
+            <p class="escrita">Sua cidade se torna um exemplo de sustentabilidade, e você é celebrado como um herói ambiental!</p>
+        </div>
+        <div class="passo" id="passo-27">
+            <h8 class="explicação">Explicação:</h8>
+            <p class="escrita">A irrigação por gotejamento é um método que aplica água diretamente na raiz das plantas em forma de gotas. Utiliza-se de gotejadores instalados em canos e mangueiras ao longo do cultivo. É eficaz para um desenvolvimento uniforme das plantas e economiza água, pois há menos desperdício. Fertilizantes podem ser adicionados à água durante a irrigação.</p>
+            <button class="btn-proximo" data-proximo="5">Voltar</button>
+        </div>
+        <div class="passo" id="passo-28">
+            <h8 class="explicação">Explicação:</h8>
+            <p class="escrita">A rotação de culturas é uma prática agrícola que alterna diferentes tipos de plantas em um local específico ao longo do tempo. Isso ajuda a conservar o solo, reduzir sua exaustão e diminuir a ocorrência de pragas. Também é benéfico para o Sistema de Plantio Direto (SPD), pois minimiza os impactos ambientais da monocultura.</p>
+            <button class="btn-proximo" data-proximo="9">Voltar</button>
+        </div>
+        <div class="passo" id="passo-29">
+            <h8 class="explicação">Explicação:</h8>
+            <p class="escrita">A energia solar na agricultura usa painéis fotovoltaicos para converter a luz do sol em eletricidade. Essa eletricidade pode alimentar equipamentos agrícolas e sistemas de irrigação. Isso pode reduzir custos, aumentar a autonomia energética e contribuir para a sustentabilidade. No entanto, requer um investimento inicial significativo.</p>
+            <button class="btn-proximo" data-proximo="12">Voltar</button>
+        </div>
+        <div class="passo" id="passo-30">
+            <h8 class="explicação">Explicação:</h8>
+            <p class="escrita">A compostagem é a “reciclagem dos resíduos orgânicos”: uma técnica que transforma restos orgânicos, como sobras de frutas, legumes, alimentos em geral, podas de jardim e serragem, em adubo. Esse processo biológico acelera a decomposição do material orgânico, resultando em um composto orgânico rico em nutrientes. Além de enriquecer o solo, a compostagem reduz o desperdício e contribuir para um ambiente  mais saudável.</p>
+            <button class="btn-proximo" data-proximo="16">Voltar</button>
+        </div>
+        <div class="passo" id="passo-31">
+            <h8 class="explicação">Explicação:</h8>
+            <p class="escrita">Reciclagem: Envolve transformar materiais em um novo ciclo de produção, criando produtos com novas utilidades. Por exemplo, uma garrafa PET pode se tornar fibra de poliéster. A reciclagem reduz o desperdício, a poluição e a emissão de gases de efeito estufa. A coleta seletiva é essencial para esse processo.</p>
+            <p class="escrita">Reutilização: Não cria um novo ciclo de produção, mas dá uma nova função a materiais existentes. Papéis usados podem virar blocos de rascunho, móveis podem ganhar novos usos e garrafas podem se transformar em objetos de decoração. A reutilização ajuda a gerenciar o lixo e evita o consumo de novo produtos.</p>
+            <button class="btn-proximo" data-proximo="19">Voltar</button>
+        </div>
+        <div class="passo" id="passo-32">
+            <h8 class="explicação">Explicação:</h8>
+            <p class="escrita">Desenhar e implementar um sistema de captação de água da chuva traz inúmeros benefícios que contribuem para a sustentabilidade ambiental, economia de recursos e melhoria da qualidade de vida. É uma prática recomendada tanto para residências quanto para empresas e indústrias, ajudando na construção de um futuro mais sustentável e resiliente.</p>
+            <button class="btn-proximo" data-proximo="22">Voltar</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

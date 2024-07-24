@@ -1,0 +1,115 @@
+
+body {
+    font-family: 'Bai Jamjuree', sans-serif;
+    background-color: #8ed478;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 800px;
+    padding: 20px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    background-color: #e5f369;
+    border-radius: 10px;
+}
+
+img {
+    max-width: 90%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: #000000c0;
+    color: #fff;
+    border: none;
+    padding: 12px 24px;
+    margin: 10px;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 50px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+button:hover {
+    background-color: #007bff;
+    transform: scale(1.1);
+}
+
+.comeca {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-55%);
+    padding: 15px 30px;
+    font-size: 1.2em;
+    font-weight: bold;
+    background-color: #0056b3;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.comeca:hover {
+    background-color: #218838;
+    transform: scale(1.3);
+}
+
+
+.explicação {
+    color: #007bff;
+    font-size: 1.2em;
+    margin: 20px 0;
+}
+
+.escrita {
+    color: #000;
+    margin: 20px 0;
+}
+
+.passo {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+}
+
+.passo.ativo {
+    display: flex;
+}
+
+.capitulo {
+    color: #000;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.Enigma, .Desafio {
+    font-weight: bold;
+    color: #007bff;
+    margin: 20px 0;
+}
+
+.fim {
+    display: flex;
+    justify-content: center;
+    font-size: 1.5em;
+    color: #28a745;
+    margin-top: 20px;
+}
+
+@media (min-width: 768px) {
+    main {
+        padding: 40px;
+    }
+}
